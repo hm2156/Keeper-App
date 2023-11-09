@@ -58,45 +58,45 @@ footer p {
 .note button {
   position: relative;
   float: right;
-  margin-right: 10px;
+  margin-right: 3px;
   color: #f5ba13;
   border: none;
-  width: 36px;
-  height: 36px;
+  width: 40px;
+  height: 30px;
   cursor: pointer;
   outline: none;
 }
 
 form {
   position: relative;
-  width: 480px;
+  width: 490px;
   margin: 30px auto 20px auto;
   background: #fff;
-  padding: 15px;
+  padding: 13px;
   border-radius: 7px;
-  box-shadow: 0 1px 5px rgb(138, 137, 137);
+  box-shadow: 0 1px 4px rgb(138, 137, 137);
 }
 form input,
 form textarea {
   width: 100%;
   border: none;
-  padding: 4px;
+  padding: 5px;
   outline: none;
-  font-size: 1.2em;
+  font-size: 1.0em;
   font-family: inherit;
   resize: none;
 }
 form button {
   position: absolute;
-  right: 18px;
-  bottom: -18px;
+  right: 20px;
+  bottom: -15px;
   background: #f5ba13;
   color: #fff;
   border: none;
-  border-radius: 50%;
-  width: 36px;
-  height: 36px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+  width: 38px;
+  height: 38px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
   cursor: pointer;
   outline: none;
 }

@@ -3,7 +3,6 @@ import Header from "./Header";
 import Createnote from "./Createnote";
 import Footer from "./Footer";
 import Note from "./Note";
-import "../../public/styles.css";
 
 function App() {
   //array of notes
