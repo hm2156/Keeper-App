@@ -21,12 +21,18 @@ function Createnote(props) {
 
   // pass new note to app
   function addNote(event) {
+    event.preventDefault(); // Prevent the default form submission
+
+    // Check if both title and content are empty
+    if (!note.title.trim() && !note.content.trim()) {
+      alert('You cannot add an empty note.'); //alert
+      return; // Exit
+    }
     props.handleAdd(note);
     setNote({
       title: "",
       content: ""
     });
-    event.preventDefault();
   }
 
   return (
